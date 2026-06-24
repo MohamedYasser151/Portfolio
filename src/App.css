@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0F172A;
+  color: white;
+}
+
+section {
+  padding: 80px 10%;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+

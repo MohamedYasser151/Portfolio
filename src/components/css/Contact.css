@@ -1,0 +1,73 @@
+
+.contact {
+  padding: 100px 10%;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+/* CARD */
+.contact-card {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+/* ITEM */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 12px 15px;
+  border-radius: 12px;
+
+  color: white;
+  text-decoration: none;
+
+  background: #1E293B;
+  transition: 0.3s;
+}
+
+.contact-item:hover {
+  transform: translateX(8px);
+  background: #38BDF8;
+  color: black;
+}
+
+/* BUTTON */
+.contact-btn {
+  margin-top: 30px;
+  background: #38BDF8;
+  color: black;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  transform: scale(1.05);
+}
